@@ -69,44 +69,9 @@ The dataset is in [GoogleDrive](https://drive.google.com/file/d/15PUf7C3majy-BbW
 
  &emsp;4. For the selection of train/val dataset, we follow the same setting as previous work, you could find it [here](https://github.com/leeyeehoo/CSRNet-pytorch)
  
-## Citing
-
-``` 
-
-@InProceedings{Liu_2019_CVPR,
-
-author = {Liu, Weizhe and Salzmann, Mathieu and Fua, Pascal},
-
-title = {Context-Aware Crowd Counting},
-
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-
-month = {June},
-
-year = {2019}
-
-}
-
-``` 
-
-``` 
-@InProceedings{Liu_2019_IROS,
-
-author = {Liu, Weizhe and Lis, Krzysztof Maciej and Salzmann, Mathieu and Fua, Pascal},
-
-title = {Geometric and Physical Constraints for Drone-Based Head Plane Crowd Density Estimation},
-
-booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-
-month = {November},
-
-year = {2019}
-
-}
-
 ``` 
 
 ## Contact
 
-For any questions regard this paper/code, please directly contact [Weizhe Liu](mailto:weizhe.liu@epfl.ch).
+For any questions regard this paper/code, please directly contact [Shubhendu Shubham](mailto:shubhendushubham98@gmail.com).
 
