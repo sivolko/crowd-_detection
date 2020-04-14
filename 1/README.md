@@ -26,52 +26,6 @@ PyTorch 0.4.1
 
 Python 2.7
 
-## Dataset
-
-&emsp;1. Download ShanghaiTech Part B Dataset from
-Dropbox: [link](https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0) or Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz).  
-
-&emsp;2. Create the hdf5 files with make_dataset.py, you need to set the path according to dataset location.
-
-&emsp;3. Use create_json.py to generate the json file which contains the path to the images.
-
-## Training
-In command line:
-
-```
-python train.py train.json val.json
-
-``` 
-
-The json files here are generated from previous step (Dataset. 3.)
-
-## Tesing
-&emsp;1. Modify the "test.py", make sure the path is correct.
-
-&emsp;2. In command line:
-
-```
-python test.py
-
-``` 
-
-## Venice Dataset
-The dataset is in [GoogleDrive](https://drive.google.com/file/d/15PUf7C3majy-BbWJSSHaXUlot0SUh3mJ/view).
-
-## Notes
-
-&emsp;1. This is the implementation for ShanghaiTech part B, the pretrained model is in [GoogleDrive](https://drive.google.com/file/d/1meuY_nfcABvsPFG1rXZEpAxcjnk0L9M1/view?usp=sharing) with MAE=7.5
 
 
-&emsp;2. For ShanghaiTech Part A, refer to [this](https://github.com/CommissarMa/Context-Aware_Crowd_Counting-pytorch), thanks [CommissarMa](https://github.com/CommissarMa) for this implementation.
-
- &emsp;3. For some dataset which training images have different size, we set batch size to 1, like ShanghaiTech part A. For others, you could set your batch size according to you GPU memory, but the batch size may affect your model accuracy during training.
-
- &emsp;4. For the selection of train/val dataset, we follow the same setting as previous work, you could find it [here](https://github.com/leeyeehoo/CSRNet-pytorch)
- 
-``` 
-
-## Contact
-
-For any questions regard this paper/code, please directly contact [Shubhendu Shubham](mailto:shubhendushubham98@gmail.com).
 
